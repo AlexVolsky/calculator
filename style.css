@@ -106,3 +106,10 @@ body {
     top: 80px;
     display: none;
 }
+
+.result{
+    pointer-events: none;
+  }
+.account{
+    pointer-events: none;
+  }

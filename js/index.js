@@ -7,7 +7,7 @@ import {createButtonClear} from './module';
 import {createButtonOpenList} from './module';
 import {createButtonCloseList} from './module';
 
-
+import '../style.css'
 
 
 
