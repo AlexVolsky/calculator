@@ -1,0 +1,108 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    
+    height: 100vh; width: 100%;
+  
+    
+}
+
+.divCalc {
+    height:  500px;
+    width: 300px;
+    background: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    position: relative;
+    
+}
+
+.clear {
+    width: 50%;
+    height: 5em;
+    background-color: grey; 
+    color: white;
+    outline: 1px solid  white";
+    font-weight: lighter;
+    /*border-bottom-left-radius: 15px;*/
+    border-bottom-right-radius: 15px;
+}
+.backspace {
+    width: 50%;
+    height: 5em;
+    background-color: grey; 
+    color: white;
+    outline: 1px solid  white";
+    font-weight: lighter;
+    border-bottom-left-radius: 15px;
+   /*border-bottom-right-radius: 15px;*/
+}
+
+.account {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #d98192;
+    font-size: 18px;
+    text-align: right;
+}
+
+.accont::placeholder {
+    color: #fff;
+}
+
+.result {
+    width: 100%;
+    margin-top: 18px;
+    text-align: right;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 60px;
+    
+}
+.result::placeholder {
+    color: #fff;
+}
+
+.btn {
+    min-width: 75px; 
+    height: 4em; 
+    font-weight: lighter; 
+    font-size: 22px;
+    outline: 1px solid #888;
+    padding: 25px;
+    outline: none;
+    
+}
+
+.btnOpenList {
+    background: white;
+    border-radius: 10px;
+    position: absolute;
+    left: -250px;
+    top: 100px;
+}
+
+.btnCloseList {
+    background: white;
+    border-radius: 10px;
+    position: absolute;
+    left: -250px;
+    top: 200px;
+}
+
+
+.ListHistory {
+    width: 200px;
+    min-height: 300px;
+    background-color: white;
+    position: absolute;
+    left: 350px;
+    top: 80px;
+    display: none;
+}
